@@ -13,6 +13,8 @@
 		403CC5D4254AC3E700C4A9CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 403CC5D3254AC3E700C4A9CD /* Assets.xcassets */; };
 		403CC5D7254AC3E700C4A9CD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 403CC5D6254AC3E700C4A9CD /* Preview Assets.xcassets */; };
 		403CC5DA254AC3E700C4A9CD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 403CC5D8254AC3E700C4A9CD /* LaunchScreen.storyboard */; };
+		403CC5E4254ACD0100C4A9CD /* PasseroOne-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 403CC5E3254ACD0100C4A9CD /* PasseroOne-Regular.ttf */; };
+		403CC5E6254AF34100C4A9CD /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403CC5E5254AF34100C4A9CD /* InfoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		403CC5D6254AC3E700C4A9CD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		403CC5D9254AC3E700C4A9CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		403CC5DB254AC3E700C4A9CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		403CC5E3254ACD0100C4A9CD /* PasseroOne-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PasseroOne-Regular.ttf"; sourceTree = "<group>"; };
+		403CC5E5254AF34100C4A9CD /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,9 +60,11 @@
 		403CC5CC254AC3E300C4A9CD /* BusinessCard */ = {
 			isa = PBXGroup;
 			children = (
+				403CC5E2254ACCDE00C4A9CD /* fonts */,
 				403CC5CD254AC3E300C4A9CD /* AppDelegate.swift */,
 				403CC5CF254AC3E300C4A9CD /* SceneDelegate.swift */,
 				403CC5D1254AC3E300C4A9CD /* ContentView.swift */,
+				403CC5E5254AF34100C4A9CD /* InfoView.swift */,
 				403CC5D3254AC3E700C4A9CD /* Assets.xcassets */,
 				403CC5D8254AC3E700C4A9CD /* LaunchScreen.storyboard */,
 				403CC5DB254AC3E700C4A9CD /* Info.plist */,
@@ -73,6 +79,14 @@
 				403CC5D6254AC3E700C4A9CD /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		403CC5E2254ACCDE00C4A9CD /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				403CC5E3254ACD0100C4A9CD /* PasseroOne-Regular.ttf */,
+			);
+			path = fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -133,6 +147,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				403CC5E4254ACD0100C4A9CD /* PasseroOne-Regular.ttf in Resources */,
 				403CC5DA254AC3E700C4A9CD /* LaunchScreen.storyboard in Resources */,
 				403CC5D7254AC3E700C4A9CD /* Preview Assets.xcassets in Resources */,
 				403CC5D4254AC3E700C4A9CD /* Assets.xcassets in Resources */,
@@ -146,6 +161,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				403CC5E6254AF34100C4A9CD /* InfoView.swift in Sources */,
 				403CC5CE254AC3E300C4A9CD /* AppDelegate.swift in Sources */,
 				403CC5D0254AC3E300C4A9CD /* SceneDelegate.swift in Sources */,
 				403CC5D2254AC3E300C4A9CD /* ContentView.swift in Sources */,
